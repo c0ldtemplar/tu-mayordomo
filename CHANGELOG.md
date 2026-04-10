@@ -4,6 +4,11 @@ Todas las modificaciones notables de "Tu Mayordomo" serán documentadas en este 
 El formato está basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
 
 ## [Unreleased]
+### Despliegue e Infraestructura
+- Implementación de `Dockerfile` multi-etapa utilizando `node:20-alpine` para la construcción y `nginx:alpine` para servir el sitio de manera ultraligera.
+- Agregado archivo `docker-compose.yml` enlazado a la red `shared-proxy` para la integración perfecta con Nginx Proxy Manager (NPM) en Raspberry Pi.
+- Actualización completa del `README.md` eliminando código muerto de platillas y agregando documentación de uso e instalación estructurada.
+
 ### Refactorización y Arquitectura
 - Extracción del panel de **Marketplace** desde el monolito `App.tsx` a `src/components/Marketplace.tsx`.
 - Extracción del panel de **Corredoras (Brokers)** desde `App.tsx` a `src/components/Brokers.tsx`, aislando su estado local y cálculos financieros.
