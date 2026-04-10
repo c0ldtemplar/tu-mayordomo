@@ -9,7 +9,7 @@ import {
   SimConfig,
   UNIT_PRICES,
   DISCOUNTS,
-} from "../types";
+} from "./types";
 
 export const calculatePlanMetrics = (
   config: ServiceConfig,

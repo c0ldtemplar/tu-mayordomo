@@ -45,7 +45,7 @@ import { Brokers } from "./components/Brokers";
 import { Beneficios } from "./components/Beneficios";
 import { Encuesta } from "./components/Encuesta";
 import { DashboardOperaciones } from "./components/DashboardOperaciones";
-import { calculatePlanMetrics } from "./utils/calculations";
+import { calculatePlanMetrics } from "./calculations";
 import { Cotizador } from "./components/Cotizador";
 import { QuienesSomos } from "./components/QuienesSomos";
 import { Servicios } from "./components/Servicios";
