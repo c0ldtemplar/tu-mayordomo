@@ -145,3 +145,22 @@ export interface ChecklistState {
   piscina: ChecklistItem[];
   reporte: ChecklistItem[];
 }
+
+export interface SimConfig {
+  totalHouses: number;
+  basicPct: number;
+  standardPct: number;
+  premiumPct: number;
+  efficiency: number;
+  salaryBase: number;
+  salaryLead: number;
+  suppliesPerHouse: number;
+  marketingBudget: number;
+  growthRate: number;
+  marketplaceAttachRate: number;
+  avgMarketplaceServiceValue: number;
+  marketplaceCommissionPct: number;
+  brokerPacksPerMonth: number;
+  brokerPackPrice: number;
+  brokerPackCost: number;
+}
