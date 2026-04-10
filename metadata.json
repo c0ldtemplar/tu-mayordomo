@@ -1,0 +1,5 @@
+{
+  "name": "TU MAYORDOMO",
+  "description": "Agenda interactiva para servicios de mantenimiento con notificaciones automáticas vía email y WhatsApp para clientes.",
+  "requestFramePermissions": ["geolocation"]
+}
