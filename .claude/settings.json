@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(/home/coldtemplar/.claude/**)",
+      "Read(/home/coldtemplar/.claude/projects/**)",
+      "Read(/home/coldtemplar/.codex/**)",
+      "Bash(bash scripts/local-ci-check.sh)",
+      "Bash(bash scripts/verify_db_sync.sh)",
+      "Bash(bash scripts/public-release-smoke.sh)",
+      "Bash(bash scripts/local-functional-smoke.sh)",
+      "Bash(bash scripts/ensure-local-review-env.sh)",
+      "Bash(bash scripts/validate-jenkinsfile.sh)",
+      "Bash(curl -sS https://tea.syncrond.cl/api/v1/health)",
+      "Bash(curl -sS https://tea.syncrond.cl/api/v1/deep-health)",
+      "Bash(curl -I -sS https://tea.syncrond.cl/*)",
+      "Bash(git log*)",
+      "Bash(git diff*)",
+      "Bash(git status)",
+      "Bash(docker ps*)",
+      "Bash(docker logs*)",
+      "Bash(ssh -o StrictHostKeyChecking=no coldtemplar@192.168.4.7 *)"
+    ]
+  }
+}
