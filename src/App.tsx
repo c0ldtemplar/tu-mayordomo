@@ -387,9 +387,8 @@ export default function App() {
                         className="w-8 h-8 rounded-full border-2 border-stone-900 bg-stone-800 flex items-center justify-center overflow-hidden"
                       >
                         <img
-                          src={`https://picsum.photos/seed/${i + 10}/100/100`}
-                          alt="User"
-                          referrerPolicy="no-referrer"
+                          src={`/images/avatar-${i}.png`}
+                          alt={`User ${i}`}
                         />
                       </div>
                     ))}

@@ -66,7 +66,7 @@ export const QuienesSomos: React.FC = () => {
         >
           <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
             <img
-              src="https://images.unsplash.com/photo-1581578731548-c64695cc6958?auto=format&fit=crop&q=80&w=1000"
+              src="/images/team-at-work.png"
               alt="Equipo trabajando"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
