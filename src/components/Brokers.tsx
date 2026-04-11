@@ -445,6 +445,14 @@ export const Brokers: React.FC<BrokersProps> = ({ show, onClose }) => {
                 </div>
 
                 <div className="space-y-6 order-1 lg:order-2">
+                  <div className="aspect-[4/3] rounded-[32px] overflow-hidden border border-white/10 shadow-2xl mb-6">
+                    <img
+                      src="/images/broker-handover.png"
+                      alt="Entrega de llaves profesional"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+
                   <div className="p-8 bg-gradient-to-br from-blue-600 to-blue-800 rounded-[32px] shadow-2xl relative overflow-hidden">
                     <div className="absolute top-0 right-0 p-6 opacity-10">
                       <ShieldCheck size={120} />
