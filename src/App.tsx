@@ -219,7 +219,7 @@ export default function App() {
       <header className="bg-stone-900 text-white py-24 px-6 relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=2000"
+            src="/images/hero-house.png"
             alt="Casa moderna con jardín y adoquines"
             className="w-full h-full object-cover opacity-40"
             referrerPolicy="no-referrer"
